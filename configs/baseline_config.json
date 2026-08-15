@@ -1,0 +1,12 @@
+{
+  "problem": {"num_customers": 50, "vehicle_capacity": 100, "problem_seed": 2026},
+  "experiment": {
+    "num_runs": 30,
+    "max_fitness_evaluations": 50000,
+    "sensitivity_runs": 10,
+    "sensitivity_fitness_evaluations": 50000
+  },
+  "ga": {"population_size": 100, "tournament_size": 3, "crossover_rate": 0.9, "mutation_rate": 0.2, "elite_size": 2},
+  "aco": {"num_ants": 50, "alpha": 1.0, "beta": 3.0, "rho": 0.3, "q": 1.0},
+  "pso": {"swarm_size": 100, "w_start": 0.9, "w_end": 0.4, "c1": 1.5, "c2": 1.5}
+}
